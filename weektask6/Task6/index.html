@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Library Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Edu+TAS+Beginner&family=Playpen+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Edu+TAS+Beginner&family=Playpen+Sans:wght@500&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>ONLINE LIBRARY MANAGEMENT SYSTEM</h1>
+  <div class="container">
+    <div class="book-list">
+      <h3>Book List</h3>
+      <ul id="book-list">
+       
+      </ul>
+    </div>
+
+        
+      
+      
+      <div class="add-book-form">
+        <h3>Add New Book</h3>
+        <form id="add-book-form">
+          <div class="form-group">
+            
+            <input type="text" id="title" placeholder="Title" required>
+          </div>
+          <div class="form-group">
+            
+            <input type="text" id="author" placeholder="Author " required>
+          </div>
+          <div class="form-group">
+            
+            <input type="text" id="genre" placeholder="Generation" required>
+          </div>
+          <button type="submit" style="background-color: rgb(3, 158, 255) ; color: white;">Add Book</button>
+        </form>
+      </div>
+      
+      
+    
+
+    <div class="search-bar">
+      <h3>Search for Books</h3>
+      <input type="text" id="search" placeholder="Search Book">
+      <button type="button" onclick="searchBooks()"style="background-color: rgb(3, 158, 255) ; color: white;">Search</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

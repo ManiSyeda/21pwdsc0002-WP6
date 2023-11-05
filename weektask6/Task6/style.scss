@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  body{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Playpen Sans', cursive;
+h1{
+  text-align: center;
+  color: rgb(255, 128, 0);
+}
+.container{
+  h3{
+    text-align:left;
+    color: rgb(64, 65, 65)
+  }
+
+}
+
+  }
+  
+  .book-list {
+    flex: 1;
+    border: 5px solid grey;
+    padding: 50px;
+  }
+  
+  .add-book-form {
+    flex: 1;
+    border: 5px solid grey;
+    padding: 5px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    border: 5px solid grey;
+    padding: 40px;
+    
+  }
+  
